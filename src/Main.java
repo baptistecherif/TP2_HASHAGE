@@ -3,6 +3,7 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args) throws IOException {
         ReadFile file = new ReadFile("minidico.txt");
-        System.out.println(file.getContent());
+        LetterAndWord word = new LetterAndWord("wagon");
+        System.out.println();
     }
 }

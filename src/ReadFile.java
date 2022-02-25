@@ -15,15 +15,16 @@ public class ReadFile {
     public String getContent() throws IOException {
         FileReader fr = new FileReader(file);
         BufferedReader br = new BufferedReader(fr);
-        String test;
-        while ((test = br.readLine()) !=null){
-            content += "\n" + test;
+        String words;
+        while ((words = br.readLine()) !=null){
+            content += "\n" + words;
         };
         return content;
     }
 
     public void putInList(String word){
-
+        LinkedList<LetterAndWord> lk = new LinkedList<LetterAndWord>();
+        lk.add()
         hashTab.add();
     }
 }
