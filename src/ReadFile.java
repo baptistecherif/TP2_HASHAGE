@@ -23,7 +23,8 @@ public class ReadFile {
     }
 
     public void putInList(String word){
-        hashTab;
+
+        hashTab.add();
     }
 }
 
