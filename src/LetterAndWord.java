@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collection;
 
 public class LetterAndWord {
     private final String word;
@@ -21,11 +22,9 @@ public class LetterAndWord {
         return this.word;
     }
 
-
-
     public ArrayList<String> getSplitWord(){
         setSplitWord();
-        java.util.Collection.sort(wordLetter);
+        Collection.sort(wordLetter);
         return this.wordLetter;
     }
 

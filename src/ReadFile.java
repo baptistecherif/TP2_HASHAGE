@@ -6,7 +6,7 @@ import java.util.List;
 public class ReadFile {
     private final File file;
     String content;
-    ArrayList<LinkedList> hashTab;
+    ArrayList<LinkedList<LetterAndWord>> hashTab = new ArrayList<>();
 
     public ReadFile(String fileName) {
         this.file = new File(fileName);
@@ -24,7 +24,7 @@ public class ReadFile {
 
     public void putInList(String word){
         LinkedList<LetterAndWord> lk = new LinkedList<LetterAndWord>();
-        lk.add()
+        lk.add();
         hashTab.add();
     }
 }
