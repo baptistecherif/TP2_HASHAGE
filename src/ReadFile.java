@@ -24,7 +24,7 @@ public class ReadFile {
 
     public void putInList(String word){
         LinkedList<LetterAndWord> lk = new LinkedList<LetterAndWord>();
-        lk.add();
+        lk.add() = new lk;
         hashTab.add();
     }
 }
